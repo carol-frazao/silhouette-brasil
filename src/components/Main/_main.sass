@@ -1,0 +1,86 @@
+// Variáveis
+@import '../../styles/_variables'  
+
+main
+    font-family: $firaSans
+    background-color: $mainBg
+    width: 100%
+    display: flex
+    align-items: center
+    justify-content: space-evenly
+    gap: 3rem
+    padding: 4%
+
+    .IllustratorContainer
+        display: flex
+        flex-direction: column
+        align-items: center
+        gap: 1rem
+
+        h1
+            color: $oceanGreen
+            text-decoration: underline
+            font-size: 22px
+
+        p
+            font-size: 14px
+            color: $lightBlack
+
+        img
+            max-width: 400px
+            width: 100%
+
+        .share-on-networks
+            display: flex
+            justify-content: center
+            gap: 1rem
+
+            a
+                text-decoration: none
+                display: flex
+                align-items: center
+                gap: 5px
+                color: white
+                padding: 5px
+                border-radius: 3px
+                font-size: 12px
+
+                &:nth-child(1)
+                    background: #3362A9
+                &:nth-child(2)
+                    background: #47A6EB
+                &:nth-child(3)
+                    background: #1F6BA1
+
+    .Formulario
+        width: 100%
+        max-width: 450px
+        background-color: $oceanGreen
+        color: white
+        border-radius: 10px
+        padding: 2rem
+
+        .title-form
+            line-height: 2rem
+            margin-bottom:  1rem
+
+            strong
+                font-size: 18px
+
+        form
+            div
+                text-align: start
+                padding-bottom: 10px
+
+            .equipamentos
+                ul
+                    margin-top: 10px
+            
+            #btn-submit
+                margin-top: 8px
+
+            .obs-submit
+                color: $lightBlack
+                font-size: 12px
+                text-align: center
+                margin-top: 1rem

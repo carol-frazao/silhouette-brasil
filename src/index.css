@@ -1,13 +1,137 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+header {
+  height: 4.5rem;
+  font-family: "Dancing Script", cursive;
+  font-weight: bold;
+  font-size: 35px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header a {
+  height: 100%;
+  text-decoration: none;
+  line-height: 4.5rem;
+}
+header a span {
+  text-shadow: rgba(0, 0, 0, 0.262745098) 0 2px 4px;
+}
+header a span:nth-child(odd) {
+  color: #319C8F;
+}
+header a span:nth-child(even) {
+  color: #2B2B2B;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  font-family: "Fira Sans", sans-serif;
+  background-color: #e9e9e9;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 3rem;
+  padding: 4%;
+}
+main .IllustratorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+main .IllustratorContainer h1 {
+  color: #319C8F;
+  text-decoration: underline;
+  font-size: 22px;
+}
+main .IllustratorContainer p {
+  font-size: 14px;
+  color: #2B2B2B;
+}
+main .IllustratorContainer img {
+  max-width: 400px;
+  width: 100%;
+}
+main .IllustratorContainer .share-on-networks {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+main .IllustratorContainer .share-on-networks a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+main .IllustratorContainer .share-on-networks a:nth-child(1) {
+  background: #3362A9;
+}
+main .IllustratorContainer .share-on-networks a:nth-child(2) {
+  background: #47A6EB;
+}
+main .IllustratorContainer .share-on-networks a:nth-child(3) {
+  background: #1F6BA1;
+}
+main .Formulario {
+  width: 100%;
+  max-width: 450px;
+  background-color: #319C8F;
+  color: white;
+  border-radius: 10px;
+  padding: 2rem;
+}
+main .Formulario .title-form {
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+main .Formulario .title-form strong {
+  font-size: 18px;
+}
+main .Formulario form div {
+  text-align: start;
+  padding-bottom: 10px;
+}
+main .Formulario form .equipamentos ul {
+  margin-top: 10px;
+}
+main .Formulario form #btn-submit {
+  margin-top: 8px;
+}
+main .Formulario form .obs-submit {
+  color: #2B2B2B;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.Articles {
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #319C8F;
+  padding: 3rem 0;
+  gap: 1rem;
+}
+
+footer {
+  height: 3rem;
+  line-height: 3rem;
+  font-family: "Fira Sans", sans-serif;
+}
+footer strong {
+  text-decoration: underline;
+  color: #319C8F;
 }
